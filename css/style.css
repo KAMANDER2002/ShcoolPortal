@@ -1,0 +1,192 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+.mainheader{
+	height: 700px;
+	background-image: url(../images/shcool.jpg);
+	background-size:100% 100%;
+
+}
+.header-color{
+	background-color: rgba(23,23,23,0.5);
+	width: 100%;
+	height: 100%;
+}
+.mainheader>.header-color>.header-text
+{
+	text-align: center;
+	padding: 15% 0px; 
+	color: white;
+
+}
+.mainheader>.header-color>.header-text>.line-white
+{
+	height: 2px;
+	background-color: white;
+    width: 100%;
+}
+.mainheader>.header-color>.header-text>.title
+{
+	font-size: 50px;
+	font-weight: bold;
+}
+.mainheader>.header-color>.header-text>.paragraph
+{
+	font-size: 20px;
+}
+.head
+{
+	background-color: #1E90FF;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px;
+}
+.head>.hrefs>a
+{
+	text-decoration: none;
+	display: inline-block;
+	color:white;
+	padding: 10px;
+	border:2px solid transparent;
+	transition: 0.5s;
+	width: 160px;
+	text-align: center;
+}
+.head>.hrefs>a:hover
+{
+ border-color: white;
+}
+.head>.logo>img
+{
+	height: 75px;
+	margin-right: 40px;
+}
+.portfolio
+{
+	height: 400px;
+	background-color: #E0FFFF;
+}
+
+.portfolio>.AboutUsText
+{
+	text-align: center;
+	padding: 20px 0px; 
+	color: black;
+}
+.portfolio>.AboutUsText>.line-black
+{
+	height: 2px;
+	background-color: black;
+    width: 100%;
+}
+.portfolio>.AboutUsText>.title
+{
+	font-size: 35px;
+	font-weight: bold;
+}
+.portfolio>.AboutUsText>.paragraph
+{
+	font-size: 20px;
+}
+.news
+{
+	text-align: center;
+	font-size: 30px;
+}
+.contact-form>.form
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 20%;
+}
+.contact-form>.form>.contacts>input
+{
+	outline: none;
+	border: 1px solid transparent;
+	border-bottom: 1px solid black;
+	display: block;
+	width: 200px;
+	margin: 20px 40px;
+	height: 30px;
+}
+.contact-form>.form>.message>input
+{
+	outline: none;
+	border: 1px solid black;
+	display: block;
+	height: 130px;
+	width: 300px;
+}
+.contact-form>.contact-form-text
+{
+	text-align: center;
+	padding: 20px 0px 0 0; 
+	color: black;
+}
+.contact-form>.contact-form-text>.line-black
+{
+	height: 2px;
+	background-color: black;
+    width: 100%;
+}
+.contact-form>.contact-form-text>.title
+{
+	font-size: 30px;
+	font-weight: bold;
+}
+.contact-form>.contact-form-text>.paragraph
+{
+	font-size: 20px;
+}
+.main
+{
+	margin: 0 5%;
+}
+.contact-form>a
+{
+	display: block;
+	text-decoration: none;
+	color:white;
+    background-color: orange;
+    width: 200px; 
+    height: 40px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    border:1px solid orange;
+    border-radius: 30px;
+    transition: 1s;
+}
+.contact-form>a:hover
+{
+ width: 240px;
+ border-color: black;
+}
+.footer
+{
+	background-color:#1E90FF;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 40px 0 0 0;
+}
+.footer>a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 1px solid transparent;
+	transition: 0.5s;
+	text-align: center;
+	margin: 10px 20px;
+	padding: 10px 30px;
+}
+.footer>a:hover
+{
+	border-color: white;
+}
